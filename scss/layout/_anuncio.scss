@@ -1,0 +1,16 @@
+@import "section-principal.scss";
+
+.anuncio{
+    background-color: #F4FE80;
+    padding: 5px;
+    p{
+        color:  $color-black;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        span{
+            font-weight: bolder;
+        }
+    }
+
+}
