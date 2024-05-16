@@ -40,6 +40,7 @@ header {
   padding: 25px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid gray;
 }
 header nav ul {
@@ -58,6 +59,11 @@ header nav ul li .enlace-negro {
   color: yellow;
 }
 
+@media screen and (min-width: 760px) {
+  .elemento-grid {
+    grid-template-columns: 150px;
+  }
+}
 .section-principal h1 {
   margin-top: 25px;
   color: white;
@@ -70,6 +76,38 @@ header nav ul li .enlace-negro {
   color: white;
   font-family: "Arial", "Helvetica";
   text-align: center;
+}
+
+/*
+
+    Comentario multilinea
+
+
+*/
+.boton-blanco {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.boton-amarillo, .boton-01 {
+  margin-top: 25px;
+  background-color: yellow;
+}
+
+.section-secundaria h2 {
+  color: blue;
+  font-family: "Arial";
+  font-size: 12;
+  font-weight: 100;
+  text-decoration: none;
+}
+.section-secundaria p {
+  background-color: yellow;
+  padding: 25px;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
